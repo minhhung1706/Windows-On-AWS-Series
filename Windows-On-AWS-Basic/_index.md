@@ -1,11 +1,3 @@
----
-title : "Deploy Windows System On AWS "
-date :  "`r Sys.Date()`" 
-weight : 3
-chapter : false
----
-# 
-
 ### Basic Windows On AWS - How To
 You are a Network Administrator / Network Engineer of a company. You recieved an email to inform you that company want you to research about AWS and do a report for both CIO and CTO. 
 
