@@ -1,10 +1,3 @@
----
-title : "Introduction to AWS Managed AD"
-date :  "`r Sys.Date()`" 
-weight : 1 
-chapter : false
-pre : " <b> 1. </b> "
----
 **AWS Managed Directory Service - Understanding** 
 - AWS Managed Directory Service is the service which is built by AWS underlying infrastructure. Once we use this service, AWS will create a host server, then deploy the Windows Server and promote it to become an Active Directory service (AWS Managed AD)
 - By AWS Share Responsibility, we are AWS's user. Hence, we do not have permission and do not have to take care about the underlying AWS Directory Service host. 
@@ -24,7 +17,7 @@ pre : " <b> 1. </b> "
   - What is Normal Group: this is the group that do not have any permission to managed the AWS Managed AD. Such as User group
   - 
 **Detailed Infrastructure Explanation** 
-![Deploy AWS Managed AD Diragram](/images/Windows-On-AWS-Managed-AD-diagram.jpg) 
+![Deploy AWS Managed AD Diragram](images/Windows-On-AWS-Managed-AD-diagram.jpg) 
 - EC2 - Bastion Host: used as a remote desktop gateway (RDGW) which is deployed inside a public subnet. So that, we will use this instance to remotely connect to the private subnet
 - EC2 - Windows Server 2022 - AD Manager: an EC2 instance which is running Windows Server 2022 and joined into the AWS Managed Domain. On this server, we will install some Administrative Tools in order to be able to manage AWS Directory Service. Such as: Active Directory User and Computer, DNS, Group Policy Management, etc.
 - EC2 - Windows Server 2022 - Domain Member: an EC2 instance which is runnin Windows Server 2022 and joined into AWS Managed Domnain. This server can be any server such as Web Server, File Server, and so on.
