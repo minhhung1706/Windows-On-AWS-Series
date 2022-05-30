@@ -18,7 +18,7 @@
 - Then click Next, srcolling DOWN to see those selected permissions
   ![IAM-Role](/images/images/iam-4.jpg)
 - After checked all the required permiosions and make sure that they are all added. Scrolling UP again and start to name your role
-  ![IAM-Role](/../images/images/iam-5.jpg)
+  ![IAM-Role](../../images/images/iam-5.jpg)
 - After done checking and naming your role. Click Create Role at the bottom
 - To check your custome created role, Roles => search the role name that you created
   ![IAM-Role](../images/images/iam-6.jpg)
