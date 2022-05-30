@@ -2,7 +2,7 @@
 - IAM - Identity Access Management: This can be considered as a permission which is grant access for users and/or aws resources to perform tasks. IAM best practice is to grant least privilege to users/aws resources. We can also grant permission that denial some tasks on specific users / aws resources
 - AWS Management Console => Search Box => search for IAM service 
 - IAM Management Console => Role => Create Role
-   ![IAM-Role](Windows-On-AWS-Basic/images/iam-1.jpg)
+   ![IAM-Role](.../images/iam-1.jpg)
 - AWS Service => EC2 => Next
    ![IAM-Role](../images/images/iam-2.jpg)
 - Search for AmazonEC2RoleforSSM => mark the box. Then continue to search for the rest of following roles:
