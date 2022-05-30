@@ -16,11 +16,7 @@
   AmazonSSMManagedInstanceCore; 
   AmazonSSMDirectoryServiceAccess
 - Then click Next, srcolling DOWN to see those selected permissions
-<<<<<<< HEAD
-  ![IAM-Role]/images/iam-4.jpg)
-=======
   ![IAM-Role](images/iam-4.jpg)
->>>>>>> 9cde6123b037d5439f8b0e63b28f2900d5d9e4cb
 - After checked all the required permiosions and make sure that they are all added. Scrolling UP again and start to name your role
   ![IAM-Role](images/iam-5.jpg)
 - After done checking and naming your role. Click Create Role at the bottom
