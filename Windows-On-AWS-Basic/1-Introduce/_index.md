@@ -1,10 +1,3 @@
----
-title : "Introduction"
-date :  "`r Sys.Date()`" 
-weight : 1 
-chapter : false
-pre : " <b> 1. </b> "
----
 **Basic Infrastructure Explanation** 
 - Region: this is AWS available regions which are can be considered as a physical AWS Datacentres. They are located around the globe
 - Availability Zone: this is the available zone that can be used to deploy AWS resources. We can consider them as a datacentre in so many of AWS datacentre. 
