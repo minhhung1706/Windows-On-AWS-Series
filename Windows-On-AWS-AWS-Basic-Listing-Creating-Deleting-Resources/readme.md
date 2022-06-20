@@ -22,7 +22,7 @@ Visit the link if you found some interested in the history of AWS. Link: [Histor
 
 
 ## 2. Basic Concept
-Please understand that, i am not going to go throught more than 2000 (two thousands) AWS Services. Instead, i will only go throught what we are going to use in the Windows On AWS Lab Series
+Please understand that, i am not going to go through more than 2000 (two thousands) AWS Services. Instead, i will only go throught what we are going to use in the Windows On AWS Lab Series
 
 
 
