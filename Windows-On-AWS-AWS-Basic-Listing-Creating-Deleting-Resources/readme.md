@@ -20,7 +20,7 @@ At the end of the day (i did not know which day, but yeah), Amazon thought about
 
 Visit the link if you found some interested in the history of AWS. Link: [History of AWS](https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services)
 
-
+---
 ## II. Basic Concept
 Please understand that, i am not going to go through more than 2000 (two thousands) AWS Services. Instead, i will only go throught what we are going to use in the Windows On AWS Lab Series
 
@@ -69,11 +69,32 @@ If you search around the internet for AWS Diagram, those arrows are not named, b
 
 To explain about the connection flow, as followed
 - All of the services inside a Private Subnet will not be able connect to the internet. Hence, the services inside a Private Subnet will be connected and driven to the NAT Gateway
-- From NGW, all the connections which are driven will be able to connect to the internet
+- From NGW, all the connections which were driven will be able to connect to the internet
 - As mention above, there is No Real Public subnet. Hence, the Public subnet which presented in the diagram is a Private Subnet in which deployed / linked an IGW and make it become a Public Subnet.
 - All of the services inside a private subnet go to the internet through out an IGW
 - IGW will be attached to the VPC for internet accessible
-- 
+- All of the services inside a VPC will be able to connect to the internet via the IGW that attached to the VPC. 
+
+---
+## III. How to create a service
+
+There are some service, which will be mentioned in this basic guide to assist us to understand what we will need for the whole Windows On AWS Series. Please understand that, there are still more services which is needed for the Windows On AWS to become a complete infrastruture. However, i will slowly mention them followed by the lad build-up. 
+
+#### 1. IAM 
+IAM stands for Identity Access and Management: This is the most crucial service which is neccessary to let an aws account and/or a service can be accessed
+
+There are basically 2 types of IAM: 
+- IAM For AWS Account: this is not different from the account permission on Windows Server and Linux, its task is to grand some specific permission to an AWS Accont so that an AWS account can access to some certain services. 
+- IAM for AWS Service: this is the same as the permission that we grant for a group (ex: computer group on windows server) on both Windows and Linux. Its task is to grand some permission to an AWS Service so that the service will have enough permission to be able to perform the tasks. 
+
+**More to IAM:** Furthermore, IAM is also help us to create an AWS account. AWS Account in which, created by IAM IS NOT the AWS Root account which is made from your email address. More than that, IAM Account is an account that similar to user/account on Windows and/or Linux. An IAM Account will have: Account Name, Permission, Account ID and Password
+
+**A. Create IAM Account**
+1. Open your AWS Console Management
+2. Navigate to the search bar and search for IAM
+   ![iam](images/iam-1.jpg)
+
+
 
 
 
