@@ -36,9 +36,13 @@ We will go through from inside to outsite, they are as followed:
     - Compute Optimized: use for computational tasks which is required high CPU processing due to heavy work-load
     - Memories Optimized: use for fast performance for workloads that process large data sets in memory
     - And some more other instance type which you can find here: [AWS Instance Types](https://aws.amazon.com/ec2/instance-types/) 
-- NAT Gateway: this is a network-based service that provided by AWS to help the other services that inside a private network can connecto to the internet
-- Internet Gateway: this is alsl a network-based service that managed by AWS to help all of the service inside a VPC (AWS Local) to be able to connect to the internet
-- Availability Zone (AZ): this is a physical datacenter in which can be understood as an AZ. It presents the available of AWS Services. This is spread-out zone by zone. An AZ is located inside an AWS Region
-- AWS Region: This is the physical places where Amazon build the Datacenters and make them become aailable for usage. An AWS Region can have at least 1 AZ and at most 4 AZ (continue to growth)
-- 
+- NAT Gateway: this is a network-based service that provided by AWS to help the other services that inside a private network can connect to the internet
+- Internet Gateway: this is also a network-based service that managed by AWS to help all of the services inside a VPC (AWS Local) to be able to connect to the internet
+- Public Subnet
+- VPC: stand for Virtual Private Cloud this can be understood as a De-militaly Zone (DMZ) which is deployed based on the underlied hardware and provisioned to AWS customer (us) to use. By AWS definition, All VPCs are completely private, that means, a VPC is logically separate your infrastructure. 
+    > If there were 2 VPCs that deployed at the same AZ and same AWS Region, they are still completely private and cannot be connected to each others. Unless, we setup some special services and connect 2 VPC. Then, they will be able to communicate to each other
+- Availability Zone (AZ): this is a physical datacenter in which can be understood as an AZ. It presents the available of AWS Services. This is spread-out zone by zone. An AZ is located inside an AWS Region. From the chart, we can see that AZ 1 and AZ 2 which mean that our service is deployed into 2 different datacenter in the same region 
+- AWS Region(s): They are the physical places where Amazon build the Datacenters and make them become aailable for usage. An AWS Region can have at least 1 AZ and at most 4 AZ (continue to growth)
+- AWS Cloud: This is virtually understands that all of the services that we deployed will belong / inside Amazon Web Service
+- Internet: global internet (0.0.0.0/0)
 
