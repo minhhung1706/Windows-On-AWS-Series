@@ -13,7 +13,7 @@ Trust me, to work in technology field, searching; in general, is an advanced ski
 Additionally, searching when/while working with the cloud (tech-cloud, not that cloud) is very crucial because there are so manything that even AWS document will not cover. It is case-by-case and solve-by-case. There are so many solution for a specific issue.
 
 ---
-## 1. What is AWS
+## I. What is AWS
 AWS is stand for Amazon Web Service. Priority, AWS was not used public, it is rather than an in-house datacenter of Amazon to help to serve for the internal traffic and workload. 
 
 At the end of the day (i did not know which day, but yeah), Amazon thought about to public AWS for world-wide usage and we have AWS nowawday. 
@@ -21,10 +21,14 @@ At the end of the day (i did not know which day, but yeah), Amazon thought about
 Visit the link if you found some interested in the history of AWS. Link: [History of AWS](https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services)
 
 
-## 2. Basic Concept
+## II. Basic Concept
 Please understand that, i am not going to go through more than 2000 (two thousands) AWS Services. Instead, i will only go throught what we are going to use in the Windows On AWS Lab Series
 
 To begin with, we will start to look at the chart bellow to have an overview about AWS Services. 
 
 ![Basic Chart](images/windows-on-aws-basic-diagram.jpg)
+
+We will go through from inside to outsite, they are as followed:
+
+#### 1. 
 
