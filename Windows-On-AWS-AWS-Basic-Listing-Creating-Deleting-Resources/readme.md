@@ -18,7 +18,8 @@ AWS is stand for Amazon Web Service. Priority, AWS was not used public, it is ra
 
 At the end of the day (i did not know which day, but yeah), Amazon thought about to public AWS for world-wide usage and we have AWS nowawday. 
 
-Visit the link if you found some interested in the history of AWS. Link: [History of AWS](https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services)
+Visit the link if you found some interested in the history of AWS. Link:
+<a href="[example.com](https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services)" target="_blank">History of AWS</a>
 
 ## 2. Basic Concept
 Please understand that, i am not going to go throught more than 2000 (two thousands) AWS Services. Instead, i will only go throught what we are going to use in the Windows On AWS Lab Series
