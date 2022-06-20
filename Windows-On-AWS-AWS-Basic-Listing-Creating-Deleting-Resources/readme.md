@@ -98,6 +98,26 @@ There are basically 2 types of IAM:
 4. We will have a look at the Account Management on the left hand-side, from top to bottom  
    **4.1. User Group:** Create a group so that you can add user into that group. Similar to User Group on Windows and Linux  
     ![iam](images/iam-3.jpg)  
+    - if we did not know where we were in the management console, fortunately, AWS provided a visual direction to show that where we at at the top left of the management console. As can be seen from the picture, User > User groups
+    - To create a group, click Create Group
+    - Enter the group name
+    ![iam](images/iam-4.jpg)
+    - scroll down, we will have the permission part, you can freely to search for your desired permission that you want to add into this group. By default, the group has NO permission, which mean cannot do anything. For this example, i will grand this group permission to full access to EC2 service
+    - After finished, scroll-down to the end => Create group
+    ![iam](images/iam-5.jpg)
+    - We have created a group named test-group. 
+    ![iam](images/iam-6.jpg)
+    - To experience the newly created group. Simply click the group and it will show us some information. Currently, we have NO user in this group. Pay attention that we are on the User Tab
+    ![iam](images/iam-7.jpg)
+    > **_NOTE:_**  
+        Group Summary:  
+        - user group name: name of the group
+        - creation time: date time created this group
+        - ARN (Amazon Resource Name): this is very important, once you work/learn deeply into AWS, you will use it alot. So many AWS service which is required to provide ARN so that the service can be linked together to perform the tasks
+        - **Explore:** try to click the Edit and explore yourself to see what we can do  
+    - Click to the Permission tab, we will see there is only 1 permission that attached to this group as we did before
+    - **Explore:** try co click to the **"+"** at the **Policy name** to see what inside
+    ![iam](images/iam-8.jpg)
 
    Users: this will help us to create and delete user
 
