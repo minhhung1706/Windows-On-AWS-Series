@@ -60,3 +60,20 @@ We will go through from inside to outsite, they are as followed:
 - AWS Cloud: This is virtually understands that all of the services that we deployed will belong / inside Amazon Web Service
 - Internet: global internet (0.0.0.0/0)
 
+#### 2. Connection Flow
+Let's take a closer look to the diagram, we will see some arrows which are named **Connection Flow**. They are the flow of the network inside a VPC.
+
+Please understand that in the future labs, i am not going to name the arrow anymore. This is due to the first and basic AWS so that i named those arrows for us to understand. This is also not neccessary to name, but the most importantly is the direction of the arrow point to, not the name. 
+
+If you search around the internet for AWS Diagram, those arrows are not named, but the direction they pointed to will tell the jobs. Hence, just for very first basic lab purpose.
+
+To explain about the connection flow, as followed
+- All of the services inside a Private Subnet will not be able connect to the internet. Hence, the services inside a Private Subnet will be connected and driven to the NAT Gateway
+- From NGW, all the connections which are driven will be able to connect to the internet
+- As mention above, there is No Real Public subnet. Hence, the Public subnet which presented in the diagram is a Private Subnet in which deployed / linked an IGW and make it become a Public Subnet.
+- All of the services inside a private subnet go to the internet through out an IGW
+- IGW will be attached to the VPC for internet accessible
+- 
+
+
+
