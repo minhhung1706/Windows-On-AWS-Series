@@ -40,18 +40,20 @@ We will go through from inside to outsite, they are as followed:
 - Internet Gateway **(IGW)**: this is also a network-based service that managed by AWS to help all of the services inside a VPC (AWS Local) to be able to connect to the internet. An IGW is always attached to a VPC. We cannot deploy the same IGW to another VPC, If we want another VPC to be able to connect to the internet, we have to provision another NEW IGW and then attach it to the desired VPC that we want to.
 - Public and Private Subnet: this is provisioned by AWS SDN (Software Defined Network). The subnets, in general, has been already done IP-Subnetting by AWS. Hence, our tasks is to plan to deploy the subnet which is suitable our needs.
 
-    > There are some differences between Public and Private Subnet:
+> **_NOTE:_**
+	    There are some differences between Public and Private Subnet:
         - Public Subnet: is connected to IGW and to be able to connect to the internet
         - Private Subnet: IS NOT connected to IGW and cannot access to the internet
         - To make the Private Subnet is accessible to the internet, we need to connect the whole disired Private Subnet to a NGW which is provisioned and deployed inside a Public Subnet
-  
-    > Think to understand and remember: 
-        - There is NO REAL Public Subnet. All Subnets are completely private after provisioned. 
-        - A Public Subnet is a Private Subnet which is attached an IGW into it
+    
+> **_NOTE:_** 
+    - There is NO REAL Public Subnet. All Subnets are completely private after provisioned. 
+    - A Public Subnet is a Private Subnet which is attached an IGW into it
 
 - VPC: stand for **Virtual Private Cloud** this can be understood as a De-militarly Zone (DMZ) which is deployed based on the underlied AWS infrastructure as a service (IaaS) and provisioned to AWS customer (us) to use. By AWS definition, All VPCs are completely private, that means, a VPC is logically separate your infrastructure. Hence, this is let us understand more the reasion why there is NO REAL Public Subnet.
 
-    > If there were 2 VPCs that deployed at the same AZ and same AWS Region, they are still completely private and cannot be connected to each others. Unless, we setup some special services and connect 2 VPC. Then, they will be able to communicate to each other. 
+> **_NOTE:_** 
+    If there were 2 VPCs that deployed at the same AZ and same AWS Region, they are still completely private and cannot be connected to each others. Unless, we setup some special services and connect 2 VPC. Then, they will be able to communicate to each other. 
 
 - Availability Zone **(AZ)**: this is a physical datacenter in which can be understood as an AZ. It presents the available of AWS Services. This is spread-out zone by zone. An AZ is located inside an AWS Region. From the chart, we can see that AZ 1 and AZ 2 which mean that our service is deployed into 2 different datacenter in the same region 
 - AWS Region(s): They are the physical places where Amazon build the Datacenters and make them become aailable for usage. An AWS Region can have at least 1 AZ and at most 4 AZ (continue to growth)
