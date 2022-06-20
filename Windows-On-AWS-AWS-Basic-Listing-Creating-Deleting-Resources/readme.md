@@ -90,10 +90,16 @@ There are basically 2 types of IAM:
 **More to IAM:** Furthermore, IAM is also help us to create an AWS account. AWS Account in which, created by IAM IS NOT the AWS Root account which is made from your email address. More than that, IAM Account is an account that similar to user/account on Windows and/or Linux. An IAM Account will have: Account Name, Permission, Account ID and Password
 
 **A. Create IAM Account**
-1. Open your AWS Console Management
-2. Navigate to the search bar and search for IAM
+1. Open your AWS Console Management  
+2. Navigate to the search bar and search for IAM  
    ![iam](images/iam-1.jpg)
+3. This is the IAM Management Console. Take a look at the top right, we will see Global, which mean IAM Service is a Global service. If we click the small arrow, it would show a drop-down menu to show that the AWS Region. By default, AWS will be a N.Virginia region which is located in US. You will need to change to the nearest available region at your side. For some Global services, the management console will state as Global   
+   ![iam](images/iam-2.jpg)  
+4. We will have a look at the Account Management on the left hand-side, from top to bottom  
+   **4.1. User Group:** Create a group so that you can add user into that group. Similar to User Group on Windows and Linux  
+    ![iam](images/iam-3.jpg)  
 
+   Users: this will help us to create and delete user
 
 
 
