@@ -42,12 +42,12 @@ We will go through from inside to outsite, they are as followed:
 
 > **_NOTE:_**
 	    There are some differences between Public and Private Subnet:
-        - Public Subnet: is connected to IGW and to be able to connect to the internet
-        - Private Subnet: IS NOT connected to IGW and cannot access to the internet
+        - Public Subnet: is connected to IGW and to be able to connect to the internet  
+        - Private Subnet: IS NOT connected to IGW and cannot access to the internet  
         - To make the Private Subnet is accessible to the internet, we need to connect the whole disired Private Subnet to a NGW which is provisioned and deployed inside a Public Subnet
     
 > **_NOTE:_** 
-    - There is NO REAL Public Subnet. All Subnets are completely private after provisioned. 
+    - There is NO REAL Public Subnet. All Subnets are completely private after provisioned.   
     - A Public Subnet is a Private Subnet which is attached an IGW into it
 
 - VPC: stand for **Virtual Private Cloud** this can be understood as a De-militarly Zone (DMZ) which is deployed based on the underlied AWS infrastructure as a service (IaaS) and provisioned to AWS customer (us) to use. By AWS definition, All VPCs are completely private, that means, a VPC is logically separate your infrastructure. Hence, this is let us understand more the reasion why there is NO REAL Public Subnet.
