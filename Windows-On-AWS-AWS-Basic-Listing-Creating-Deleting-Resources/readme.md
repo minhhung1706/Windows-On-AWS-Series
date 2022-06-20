@@ -30,5 +30,15 @@ To begin with, we will start to look at the chart bellow to have an overview abo
 
 We will go through from inside to outsite, they are as followed:
 
-#### 1. 
+#### 1. Component / AWS Services
+- EC2 : Stand for Elastic Cloud Compute, we call a single EC2 is an instance. This is a virtual server which is dilivered by AWS from the AWS physical underlied hardware. There are so many type of EC2 such as (listed some): 
+    - General Purpose: use for some of general usage
+    - Compute Optimized: use for computational tasks which is required high CPU processing due to heavy work-load
+    - Memories Optimized: use for fast performance for workloads that process large data sets in memory
+    - And some more other instance type which you can find here: [AWS Instance Types](https://aws.amazon.com/ec2/instance-types/) 
+- NAT Gateway: this is a network-based service that provided by AWS to help the other services that inside a private network can connecto to the internet
+- Internet Gateway: this is alsl a network-based service that managed by AWS to help all of the service inside a VPC (AWS Local) to be able to connect to the internet
+- Availability Zone (AZ): this is a physical datacenter in which can be understood as an AZ. It presents the available of AWS Services. This is spread-out zone by zone. An AZ is located inside an AWS Region
+- AWS Region: This is the physical places where Amazon build the Datacenters and make them become aailable for usage. An AWS Region can have at least 1 AZ and at most 4 AZ (continue to growth)
+- 
 
