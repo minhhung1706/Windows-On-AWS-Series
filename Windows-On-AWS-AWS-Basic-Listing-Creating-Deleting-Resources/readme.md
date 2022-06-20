@@ -26,5 +26,5 @@ Please understand that, i am not going to go through more than 2000 (two thousan
 
 To begin with, we will start to look at the chart bellow to have an overview about AWS Services. 
 
-![Basic Chart](images\images/windows-on-aws-basic-diagram.jpg)
+![Basic Chart](images/windows-on-aws-basic-diagram.jpg)
 
