@@ -24,5 +24,7 @@ Visit the link if you found some interested in the history of AWS. Link: [Histor
 ## 2. Basic Concept
 Please understand that, i am not going to go through more than 2000 (two thousands) AWS Services. Instead, i will only go throught what we are going to use in the Windows On AWS Lab Series
 
+To begin with, we will start to look at the chart bellow to have an overview about AWS Services. 
 
+![Basic Chart](images\images/windows-on-aws-basic-diagram.jpg)
 
