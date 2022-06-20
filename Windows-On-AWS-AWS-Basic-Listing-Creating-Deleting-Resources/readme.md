@@ -41,7 +41,7 @@ We will go through from inside to outsite, they are as followed:
 - Public and Private Subnet: this is provisioned by AWS SDN (Software Defined Network). The subnets, in general, has been already done IP-Subnetting by AWS. Hence, our tasks is to plan to deploy the subnet which is suitable our needs.
 
 > **_NOTE:_**
-	    There are some differences between Public and Private Subnet:
+	    There are some differences between Public and Private Subnet:  
         - Public Subnet: is connected to IGW and to be able to connect to the internet  
         - Private Subnet: IS NOT connected to IGW and cannot access to the internet  
         - To make the Private Subnet is accessible to the internet, we need to connect the whole disired Private Subnet to a NGW which is provisioned and deployed inside a Public Subnet
