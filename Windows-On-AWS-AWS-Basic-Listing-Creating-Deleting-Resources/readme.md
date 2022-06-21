@@ -22,7 +22,7 @@ Visit the link if you found some interested in the history of AWS. Link: [Histor
 
 ---
 ## II. Basic Concept
-Please understand that, i am not going to go through more than 2000 (two thousands) AWS Services. Instead, i will only go throught what we are going to use in the Windows On AWS Lab Series
+Please understand that, i am not going to go through more than 2000 (two thousands) AWS Services. Instead, i will only go through what we are going to use in the Windows On AWS Lab Series
 
 To begin with, we will start to look at the chart bellow to have an overview about AWS Services. 
 
@@ -44,7 +44,7 @@ We will go through from inside to outsite, they are as followed:
 	    There are some differences between Public and Private Subnet:  
         - Public Subnet: is connected to IGW and to be able to connect to the internet  
         - Private Subnet: IS NOT connected to IGW and cannot access to the internet  
-        - To make the Private Subnet is accessible to the internet, we need to connect the whole disired Private Subnet to a NGW which is provisioned and deployed inside a Public Subnet
+        - To make the Private Subnet is accessible to the internet, we need to connect the whole desired Private Subnet to a NGW which is provisioned and deployed inside a Public Subnet
     
 > **_NOTE:_**  
     - There is NO REAL Public Subnet. All Subnets are completely private after provisioned.   
