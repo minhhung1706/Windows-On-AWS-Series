@@ -50,7 +50,7 @@ We will go through from inside to outsite, they are as followed:
     - There is NO REAL Public Subnet. All Subnets are completely private after provisioned.   
     - A Public Subnet is a Private Subnet which is attached an IGW into it
 
-- VPC: stand for **Virtual Private Cloud** this can be understood as a De-militarly Zone (DMZ) which is deployed based on the underlied AWS infrastructure as a service (IaaS) and provisioned to AWS customer (us) to use. By AWS definition, All VPCs are completely private, that means, a VPC is logically separate your infrastructure. Hence, this is let us understand more the reasion why there is NO REAL Public Subnet.
+- VPC: stand for **Virtual Private Cloud** this can be understood as a De-military Zone (DMZ) which is deployed based on the underlied AWS infrastructure as a service (IaaS) and provisioned to AWS customer (us) to use. By AWS definition, All VPCs are completely private, that means, a VPC is logically separate your infrastructure. Hence, this is let us understand more the reasion why there is NO REAL Public Subnet.
 
 > **_NOTE:_**   
     If there were 2 VPCs that deployed at the same AZ and same AWS Region, they are still completely private and cannot be connected to each others. Unless, we setup some special services and connect 2 VPC. Then, they will be able to communicate to each other. 
