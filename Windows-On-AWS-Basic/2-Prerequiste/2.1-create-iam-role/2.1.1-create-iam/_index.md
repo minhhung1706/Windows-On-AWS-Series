@@ -19,21 +19,21 @@ Once you have done all of those labs, i understand that you are ready to deep di
    - Search for AmazonEC2RoleforSSM => mark the box. Then continue to search for the rest of following roles:
    - **Remember to delete the found-out** permission before to continue to search again by clicking the **"X"** . If not, it will be conflicted and cannot search out the next permission we need
   ![IAM-Role](images/iam-3.jpg)
-- The required permissions:
-  CloudWatchAgentAdminPolicy; 
-  CloudWatchAgentServerPolicy; 
-  AWSDirectoryServiceFullAccess; 
-  AmazonRoute53DomainsFullAccess; 
-  AmazonSSMManagedInstanceCore; 
-  AmazonSSMDirectoryServiceAccess
-- Then click Next, srcolling DOWN to see those selected permissions
+   - The required permissions:
+    CloudWatchAgentAdminPolicy; 
+    CloudWatchAgentServerPolicy; 
+    AWSDirectoryServiceFullAccess; 
+    AmazonRoute53DomainsFullAccess; 
+    AmazonSSMManagedInstanceCore; 
+    AmazonSSMDirectoryServiceAccess
+   - Then click Next, srcolling **DOWN** to see those selected permissions
   ![IAM-Role](images/iam-4.jpg)
-- After checked all the required permiosions and make sure that they are all added. Scrolling UP again and start to name your role
+   - After checked all the required permiosions and make sure that they are all added. **Scrolling UP** again and start to name your role
   ![IAM-Role](images/iam-5.jpg)
-- After done checking and naming your role. Click Create Role at the bottom
-- To check your custome created role, Roles => search the role name that you created
+   - After done checking and naming your role. Click **Create Role at the bottom**
+   - To check your custome created role, Roles => search the role name that you created
   ![IAM-Role](images/iam-6.jpg)
-- Click the new created role to see
+   - Click the new created role to see
   ![IAM-Role](images/iam-7.jpg)
-- We have done create role to prepare for our Windows Server on AWS
+   - We have done create role to prepare for our Windows Server on AWS
   
