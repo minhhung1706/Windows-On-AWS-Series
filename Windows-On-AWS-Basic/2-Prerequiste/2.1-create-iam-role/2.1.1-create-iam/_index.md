@@ -11,13 +11,13 @@ Once you have done all of those labs, i understand that you are ready to deep di
 
 #### I. Create IAM Role
 - IAM - Identity Access Management: This can be considered as a permission which is grant access for users and/or aws resources to perform tasks. IAM best practice is to grant least privilege to users/aws resources. We can also grant permission that denial some tasks on specific users / aws resources
-- AWS Management Console => Search Box => search for IAM service 
-- IAM Management Console => Role => Create Role
+1. AWS Management Console => Search Box => search for IAM service 
+2. IAM Management Console => Role => Create Role
    ![IAM-Role](images/iam-1.jpg)
-- AWS Service => EC2 => Next
+3. AWS Service => EC2 => Next
    ![IAM-Role](images/iam-2.jpg)
-- Search for AmazonEC2RoleforSSM => mark the box. Then continue to search for the rest of following roles:
-- Remember to delete the found-out permission before to continue to search again. If not, it will be conflicted and cannot search out the next permission we need
+   - Search for AmazonEC2RoleforSSM => mark the box. Then continue to search for the rest of following roles:
+   - **Remember to delete the found-out** permission before to continue to search again by clicking the **"X"** . If not, it will be conflicted and cannot search out the next permission we need
   ![IAM-Role](images/iam-3.jpg)
 - The required permissions:
   CloudWatchAgentAdminPolicy; 
