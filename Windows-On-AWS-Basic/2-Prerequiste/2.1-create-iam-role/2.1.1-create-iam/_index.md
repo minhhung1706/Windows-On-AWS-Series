@@ -1,4 +1,15 @@
-#### Create IAM Role
+### Forewords
+If you have not ready yet to deep dive into the Windows On AWS, take your time to prepare yourself by doing those labs to make sure that you are up to date with the cloud
+- [Creating Your AWS Account](https://000001.awsstudygroup.com/)
+- [Setting up Budget for your Cloud Journey](https://000007.awsstudygroup.com/)
+- [VPC - Virtual Private Cloud - Introducing and Getting to know](https://000003.awsstudygroup.com/)
+- [EC2 - Introducing and Getting to know](https://000004.awsstudygroup.com/)
+
+Once you have done all of those labs, i understand that you are ready to deep dive into the cloud. Let's get your hand dirty ! 
+
+----
+
+#### I. Create IAM Role
 - IAM - Identity Access Management: This can be considered as a permission which is grant access for users and/or aws resources to perform tasks. IAM best practice is to grant least privilege to users/aws resources. We can also grant permission that denial some tasks on specific users / aws resources
 - AWS Management Console => Search Box => search for IAM service 
 - IAM Management Console => Role => Create Role
