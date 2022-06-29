@@ -36,6 +36,7 @@ In this section, we will create a EC2.
    - Then, take a closer look to **Status Check**. It will change from Initializing to 2/2 Checked Pass. Once your Status Check is 2/2 Checked Pass, you will be able to use your intance
   ![EC2](images/ec2-6.jpg)
 6. Let's make another instance. However, change some option as follow:
+  - Name: sever-2022 (or something you like)
   - Subnet: Private  
   - Auto Assigned Public IP: Disable => We do not want our important server to    be exposed to the internet
 7. 
