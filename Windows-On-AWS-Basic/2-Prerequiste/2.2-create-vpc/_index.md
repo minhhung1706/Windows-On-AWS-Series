@@ -13,25 +13,14 @@ In this section, we will create a VPC. Something need to understand before deep-
   ![VPC](images/vpc-1.jpg)
 3. Click Create VPC
   ![VPC](images/vpc-2.jpg)
-4. Choose Create VPC, subnet, etc
+4. Choose Create VPC, subnet, etc. Follow the steps in the picture bellow.    Then, continue to scroll down
   ![VPC](images/vpc-3.jpg)
-5. Name your VPC
-   - Choose your IPv4 CIDR Block, AWS will use SDN (Software Defined Network) to do ip-subnetting for us
-   - For IPv6, please refer to the info hyperlink. By default, No IPv6 CIDR Block
+5. Continue to configure VPC. Follow the steps in the picture bellow
   ![VPC](images/vpc-4.jpg)
-- Choose AZ: 2
-- Number of Public and Private Subnet: 2 => this is a common best practice on AWS for load balancing, fail-over, always-on and high availability of AWS services
-- If you need more subnet, you can choose 4. However, for the lab, 2 is enough.
-- If you pay attention to the subnet which is recommended by AWS, there are always even number due to infrastructure best practices which i mentioned above
-- You can customise your subnet by choosing 0. Then, manually create them as your desired.
--  NAT Gateway: in 1 AZ
--  VPC Endpoint: NONE
--  DNS Option: by default on the NEW console, they will be checked. However, if you create on old console, you have to manually choose the VPC and enable them.
-- Double check all of the option 
-- Then, click Create VPC
-- It's takes sometime to deploy all of the required resources. Roundly, 3 minutes
+   - Then, click Create VPC
+   - It's takes sometime to deploy all of the required resources. Roundly, 3 minutes
   ![VPC](images/vpc-5.jpg)
-- Resources successfully created. Click View VPC
+6. Resources successfully created. Click View VPC
   ![VPC](images/vpc-6.jpg)
 - Click Subnet to see those created subnet. You can also create your own subnet here by clicking Create Subnet (top right)
   ![VPC](images/vpc-7.jpg)
