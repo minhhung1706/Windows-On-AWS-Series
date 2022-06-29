@@ -1,22 +1,23 @@
 ### Create VPC
 
-In this section, we will create a VPC. However, before to continue there are some note that your need to know
+In this section, we will create a VPC. Something need to understand before deep-dive into a VPC:
 - AWS recently has been developing new VPC Management Console. Hence, pay attention to the top of your browser to see if there is anything inform from AWS. Click to switch to new VPC Management Console
 - New VPC Management Console will help you to create: Subnet, Route table and associate the route for you, NAT Gateway, Internet Gateway at the same time
 - The old VPC Management Console does not let you do that, it is only create vpc and subnet. You have to manually create route table and associate the route. Moreover, you have to create Internet Gateway, NAT Gateway and attach to VPC and Public subnet (coresponding)
 - The New VPC Management Console which is friendly and quick. However, if you are new into AWS, using the old console will be good because it will force you to play around the VPC services so that you have chance to understand more about the AWS.
   
 ---
-- If your are already at AWS Management Console => Search Box => VPC
-- At VPC Management Console => Check to see if you are in the right region. If not, change to your desired region
+### Steps to create a VPC
+1. If your are already at AWS Management Console => Search Box => VPC
+2. At VPC Management Console => Check to see if you are in the right region. If not, change to your desired region. Then on the left menu, click Your VPC
   ![VPC](images/vpc-1.jpg)
-- Click Create VPC
+3. Click Create VPC
   ![VPC](images/vpc-2.jpg)
-- Choose Create VPC, subnet, etc
+4. Choose Create VPC, subnet, etc
   ![VPC](images/vpc-3.jpg)
-- Name your VPC
-- Choose your IPv4 CIDR Block, AWS will use SDN (Software Defined Network) to do ip-subnetting for us
-- For IPv6, please refer to the info hyperlink. By default, No IPv6 CIDR Block
+5. Name your VPC
+   - Choose your IPv4 CIDR Block, AWS will use SDN (Software Defined Network) to do ip-subnetting for us
+   - For IPv6, please refer to the info hyperlink. By default, No IPv6 CIDR Block
   ![VPC](images/vpc-4.jpg)
 - Choose AZ: 2
 - Number of Public and Private Subnet: 2 => this is a common best practice on AWS for load balancing, fail-over, always-on and high availability of AWS services
