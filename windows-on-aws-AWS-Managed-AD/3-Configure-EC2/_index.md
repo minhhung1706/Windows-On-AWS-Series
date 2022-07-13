@@ -16,7 +16,7 @@
     ![ec2-config](images/ec2-confg-2.jpg)
 2. Navigate to the EC2 Management Console => save ALL of the both public and private ip address of ALL EC2
     ![ec2-config](images/ec2-confg-3.jpg)
-3. We will have a temporary notepad file like this
+3. We will have a temporary notepad file like this  
     ![ec2-config](images/ec2-confg-4.jpg)
 4. Edit your hosts file on ALL EC2. Remember, before edit the host file, you need to grand the permission so the that file can be saved. Host file is located at **C:\Windows\System32\drivers\etc**
     ![ec2-config](images/ec2-confg-4a.jpg)
