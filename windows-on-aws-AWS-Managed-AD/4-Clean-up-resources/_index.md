@@ -37,7 +37,7 @@ After finished all the parts of this lab. We will need to clean up the resources
 ![clean-up-resources](images/clean-16.jpg)
 ![clean-up-resources](images/clean-17.jpg)
 
-**7. Delete Elastic IP**
-If you left the Elastic IP un-used. You will be charged for the IP service. Hence, remember to delete all of Elastic IP if you did not need them.
+**7. Delete Elastic IP**  
+If you left the Elastic IP un-used. You will be charged for the IP service. Hence, remember to delete all of Elastic IP if you did not need them.  
 ![clean-up-resources](images/clean-18.jpg)
 ![clean-up-resources](images/clean-19.jpg)
