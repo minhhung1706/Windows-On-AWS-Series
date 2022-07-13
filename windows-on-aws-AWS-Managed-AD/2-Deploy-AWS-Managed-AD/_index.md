@@ -6,7 +6,7 @@
   - IAM Role with all of neccessary permissions must be created
   - Your AWS Account should have enough permission to perform this lab. Recommended to use your own AWS Account
 ---
-### Deploy AWS Managed Directory Service
+### I. Deploy AWS Managed Directory Service
 1. AWS Management Console => Search for Directory Service
 2. At AWS Directory Service management console => Set up directory
   ![setup directory](images/setup-ad-1.jpg)
@@ -29,7 +29,7 @@
   ![setup directory](images/setup-ad-6.jpg)
 12. We are done for setting up AWS Managed AD 
 ---
-### Deploy EC2
+### II. Deploy EC2
 - Let assumed that we are all know how to deploy EC2. 
 - However, the basic guide has already mentioned about the EC2 Management Console
 - The NEW EC2 Management Console is still under development. Hence, it will not let us join domain and some other setup
