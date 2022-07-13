@@ -11,13 +11,13 @@ After finished all the parts of this lab. We will need to clean up the resources
 ![clean-up-resources](images/clean-4.jpg)
 ![clean-up-resources](images/clean-5.jpg)
 
-**3. Clean Up Security Group:** 
-    - To be able to make all the service connectable, we did trust the Security Group Inbound Rule for both VPC-SG and d_Controller-SG (prefer to the basic guide)
-    - To be able to delete, we need to untrust (delete) those rule so that there is not any related-rule in a single security group
-    - We have 2 ways to delete the security group rules
-        ==> 1. To find the corresponded the security group id with the one we want to delete => Delete => Save
-        ==> 2. Delete all the presneted rule => Save
-    - Do for **ALL** security groups
+**3. Clean Up Security Group:**   
+    - To be able to make all the service connectable, we did trust the Security Group Inbound Rule for both VPC-SG and d_Controller-SG (prefer to the basic guide)  
+    - To be able to delete, we need to untrust (delete) those rule so that there is not any related-rule in a single security group  
+    - We have 2 ways to delete the security group rules  
+        ==> 1. To find the corresponded the security group id with the one we want to delete => Delete => Save  
+        ==> 2. Delete all the presneted rule => Save  
+    - Do for **ALL** security groups  
 ![clean-up-resources](images/clean-6.jpg)
 ![clean-up-resources](images/clean-7.jpg)
 ![clean-up-resources](images/clean-8.jpg)
