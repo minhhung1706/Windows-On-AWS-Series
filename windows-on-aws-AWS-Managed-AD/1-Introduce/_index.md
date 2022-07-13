@@ -20,5 +20,4 @@
 ![Deploy AWS Managed AD Diragram](images/Windows-On-AWS-Managed-AD-diagram.jpg) 
 - EC2 - Bastion Host: used as a remote desktop gateway (RDGW) which is deployed inside a public subnet. So that, we will use this instance to remotely connect to the private subnet
 - EC2 - Windows Server 2022 - AD Manager: an EC2 instance which is running Windows Server 2022 and joined into the AWS Managed Domain. On this server, we will install some Administrative Tools in order to be able to manage AWS Directory Service. Such as: Active Directory User and Computer, DNS, Group Policy Management, etc.
-- EC2 - Windows Server 2022 - Domain Member: an EC2 instance which is runnin Windows Server 2022 and joined into AWS Managed Domnain. This server can be any server such as Web Server, File Server, and so on.
 - AWS Managed Active Directory Service: This is an AWS Directory Service which is deployed and promoted to be a Active Directory (AD)
