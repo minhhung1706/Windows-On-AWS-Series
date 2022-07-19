@@ -5,7 +5,7 @@ What is AWS Workspace: Amazon Workspace is a virtual technology that allow us to
 However, to be able to connect to the Amazon Workspace environment, we have 2 ways
 - To install the Amazon Workspace client 
 - To use on any browser with the provided link to connect
-![Amazon Workspace](/images/aws-workspace.jpg)
+![Amazon Workspace](../images/aws-workspace.jpg)
 
 ---
 

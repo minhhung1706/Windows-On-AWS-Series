@@ -23,4 +23,4 @@
 
 Refer to the architect diagram bellow to centralized and double check your preparation for the lab
 
-![Amazon Workspace](/images/aws-workspace.jpg)
+![Amazon Workspace](../images/aws-workspace.jpg)
