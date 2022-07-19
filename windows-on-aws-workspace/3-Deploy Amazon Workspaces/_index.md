@@ -15,3 +15,5 @@ For more information about Amazon WorkSpaces protocol, please refer to this link
 ![Deploy Amazon Workspace](../images/deploy-amazon-workspace-6.jpg)  
 6. Then, we create 2 users for testing purpose. Filling the information as the figure bellow
 ![Deploy Amazon Workspace](../images/deploy-amazon-workspace-5.jpg)  
+7. Waiting for a while, probadly 20 minutes for workspaces to be completely available. Then Click the **View WorkSpaces Console**
+![Deploy Amazon Workspace](../images/deploy-amazon-workspace-7.jpg)  
