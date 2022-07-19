@@ -1,6 +1,6 @@
-### Introduce To Amazon Workspace
+### Introduce To Amazon Workspaces
 
-What is AWS Workspace: Amazon Workspace is a virtual technology that allow us to implement, to deploy and to manage the client operating system such as: Windows 10 / 11, Mac OS, Ubuntu. We can fully implement the AWS Workspace completely on the AWS cloud environment without installing anything on our system. 
+What is AWS Workspace: Amazon Workspaces is a virtual technology that allow us to implement, to deploy and to manage the client operating system such as: Windows 10 / 11, Mac OS, Ubuntu. We can fully implement the AWS Workspace completely on the AWS cloud environment without installing anything on our system. 
 
 However, to be able to connect to the Amazon Workspace environment, we have 2 ways
 - To install the Amazon Workspace client 
