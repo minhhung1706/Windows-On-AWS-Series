@@ -21,6 +21,6 @@
    - Modify hosts file and Computer name: recommended to do but not required
    - Modify IP: YES
 
-Refer to the architect diagram bellow to centralized and double check your preparation for the lab
+Refer to the architect diagram bellow to double check your preparation for the lab
 
 ![Amazon Workspace](../images/aws-workspace.jpg)
