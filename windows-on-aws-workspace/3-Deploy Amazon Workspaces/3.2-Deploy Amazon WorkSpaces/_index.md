@@ -43,7 +43,8 @@
 ![Deploy Amazon Workspace](../../images/deploy-amazon-workspace-27.jpg)  
 1.  After review our setup, click **Launch WorkSpaces**. It takes 20 minutes for workspaces to be availabled
 ![Deploy Amazon Workspace](../../images/deploy-amazon-workspace-28.jpg)    
-![Deploy Amazon Workspace](../../images/deploy-amazon-workspace-29.jpg)   
+![Deploy Amazon Workspace](../../images/deploy-amazon-workspace-29.jpg)  
+![Deploy Amazon Workspace](../../images/deploy-amazon-workspace-30.jpg)   
 
 
 
