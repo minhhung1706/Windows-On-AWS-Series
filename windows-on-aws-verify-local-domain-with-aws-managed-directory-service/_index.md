@@ -1,4 +1,4 @@
-### Introduction
+### Verifying Local Domain With AWS Managed Direcroty Service
 ---
 You are a System and Network Engineering of an enterprise business. Due to the demanding of morden-working, your CIO grands you a task which is to understanding about how to use the built-in active directory domain controller on AWS.  
 
