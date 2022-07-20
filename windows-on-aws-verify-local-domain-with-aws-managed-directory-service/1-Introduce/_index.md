@@ -16,10 +16,10 @@ Our task is to use and to focus on our infrastructure and put all of AWS service
 
 As usual, we are so much familiar with the infrastructure which is pretty easy to understand and to work with. 
 
-What we have here ==> 2 Sites:
-**1. AWS Site:** 
-We have EC2, NAT Gateway, Internet Gateway, AWS Managed Directory Service
-**2. Local Site:**
+What we have here ==> 2 Sites:  
+**1. AWS Site:**   
+We have EC2, NAT Gateway, Internet Gateway, AWS Managed Directory Service  
+**2. Local Site:**  
 We also have EC2, NAT Gateway, Internet Gateway  
 
 **Similarities of 2 Sites:**
