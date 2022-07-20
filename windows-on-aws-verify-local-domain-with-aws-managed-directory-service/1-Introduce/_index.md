@@ -9,7 +9,7 @@ Our task is to use and to focus on our infrastructure and put all of AWS service
 ---
 ### Architect Diagram
 
-![Verify Local Domain With AWS Managed Directory Service](/images/verified-local-domain-with-aws-directory-service.jpg)
+![Verify Local Domain With AWS Managed Directory Service](../images/verified-local-domain-with-aws-directory-service.jpg)
 
 ---
 ### Infrastructure Explannation
