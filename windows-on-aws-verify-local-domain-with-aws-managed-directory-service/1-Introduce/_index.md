@@ -22,7 +22,7 @@ We have EC2, NAT Gateway, Internet Gateway, AWS Managed Directory Service
 **2. Local Site:**
 We also have EC2, NAT Gateway, Internet Gateway  
 
-**Similarity of 2 Sites:**
+**Similarities of 2 Sites:**
 - They are both in the same region
 - They are both able to connect to the internet
 - They are both can communicate with each other in either IP Address or Computer Name (of course, we need to configure them)  
