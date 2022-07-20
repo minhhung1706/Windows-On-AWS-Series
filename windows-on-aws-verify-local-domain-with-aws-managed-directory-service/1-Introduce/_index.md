@@ -21,11 +21,13 @@ What we have here ==> 2 Sites:
 We have EC2, NAT Gateway, Internet Gateway, AWS Managed Directory Service
 **2. Local Site:**
 We also have EC2, NAT Gateway, Internet Gateway  
+
 **Similarity of 2 Sites:**
 - They are both in the same region
 - They are both able to connect to the internet
 - They are both can communicate with each other in either IP Address or Computer Name (of course, we need to configure them)  
 - All of the services inside a VPC can work/communicate together. Additionallly, it is also depends on the real case scenario.  
+
 **Differences of 2 Sites:**  
 - The 2 Sites are localed in different Availability Zone
 - The 2 Sites have different IP Address Range
