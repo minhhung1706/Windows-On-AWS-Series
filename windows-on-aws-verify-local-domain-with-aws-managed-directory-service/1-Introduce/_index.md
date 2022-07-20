@@ -35,7 +35,7 @@ We also have EC2, NAT Gateway, Internet Gateway
 - The 2 Sites are designed in differnt VPC
 - The 2 Sites might not share the same Network Infrastructure and Network Design due to the reality of this lab and the real-world scenario. It is also depends on what does your business needs.  
 
-The reason why we can simulate the Local Site and AWS Site both on AWS because of the VPC. By AWS VPC's definition: VPC is logically separate all of the infrastructure inside it. Which is mean that even though the infrastructures are located in the same region, they are still be isolated if we did not configure the VPC Peering to link all VPCs together.  
+The reason why we can simulate the **Local Site** and **AWS Site** both on AWS because of the VPC. By AWS VPC's definition: VPC is logically separate all of the infrastructure inside it. Which is mean that even though the infrastructures are located in the same region, they are still be isolated if we did not configure the VPC Peering to link all VPCs together.  
 
 By that reason, we can completely simulate the real world case study about the Local Site and the AWS Cloud Site and implement to our work.
 
