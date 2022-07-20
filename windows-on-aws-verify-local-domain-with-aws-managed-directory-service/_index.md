@@ -5,3 +5,4 @@ You are a System and Network Engineering of an enterprise business. Due to the d
 This lab will assist you at most understanding with both of the infrastructure and hands-on  
 ---
 
+![Verify Local Domain With AWS Managed Directory Service](images/verified-local-domain-with-aws-directory-service.jpg)
