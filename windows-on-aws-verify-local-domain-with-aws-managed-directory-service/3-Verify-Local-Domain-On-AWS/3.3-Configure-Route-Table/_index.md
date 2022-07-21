@@ -14,8 +14,8 @@ We finished setup the VPC Peering. However, it does not mean our services inside
 ![Route Table Configuration](../../images/route-table-2.jpg)  
 ![Route Table Configuration](../../images/route-table-3.jpg)  
 3. We route the traffic for:
-   - AWS Site: Main Route and Public Route (Public route is the one with Internet Gateway attached)  
-   - Local Site: Main Route and Public Route  
-   - Remember to double check the routes
+   - AWS Site: Add peering to all routes  
+   - Local Site: Add peering to all routes  
+   - Remember to double check all the routes
 ![Route Table Configuration](../../images/route-table-4.jpg)  
 ![Route Table Configuration](../../images/route-table-5.jpg)  
