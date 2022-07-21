@@ -28,7 +28,19 @@ We need to upgrade the EC2 in the private network to Domain Controller
 ![EC2 Configuration](../../images/ec2-configuration-5.jpg)  
 ![EC2 Configuration](../../images/ec2-configuration-6.jpg)  
 ![EC2 Configuration](../../images/ec2-configuration-7.jpg)  
-![EC2 Configuration](../../images/ec2-configuration-8.jpg)  
+![EC2 Configuration](../../images/ec2-configuration-8.jpg) 
+![EC2 Configuration](../../images/ec2-configuration-9.jpg)  
+  
+2. Promote the server to become a Domain Controller  
+![EC2 Configuration](../../images/ec2-configuration-10.jpg)  
+![EC2 Configuration](../../images/ec2-configuration-11.jpg)  
+![EC2 Configuration](../../images/ec2-configuration-12.jpg)  
+![EC2 Configuration](../../images/ec2-configuration-13.jpg)  
+![EC2 Configuration](../../images/ec2-configuration-14.jpg)  
+
+
+
+ 
 
  
 
