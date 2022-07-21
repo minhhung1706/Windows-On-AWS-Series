@@ -22,3 +22,6 @@ This lab will assist you at most understanding with both of the infrastructure a
 If you have not ready for the deep-dive into AWS Services - Windows On AWS. Please refer to this link for [Basic Windows On AWS](https://github.com/minhhung1706/Windows-On-AWS-Series/tree/main/Windows-On-AWS-Basic)
 
 Once you have done all of those labs, i understand that you are ready to deep dive into the cloud. Let's get your hand dirty !
+
+---
+
