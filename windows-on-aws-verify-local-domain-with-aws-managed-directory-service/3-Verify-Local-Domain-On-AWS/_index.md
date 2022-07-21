@@ -8,4 +8,5 @@ In this section, we will continue to experience about how to verify our local do
 1. VPC Peering Configuration   
 2. Security Group Configuration 
 3. Configure Route Table
-4. EC2 Configuration  
+4. EC2 Configuration
+5. Verifying Local Domain on AWS Managed Directory Service 
