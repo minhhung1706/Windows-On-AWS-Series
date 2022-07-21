@@ -19,6 +19,15 @@ After we have done everything about setup the environment. Now, we will start so
 ![Verifying Local Domain](../../images/verifying-local-domain-7.jpg)  
 ![Verifying Local Domain](../../images/verifying-local-domain-8.jpg)  
 ![Verifying Local Domain](../../images/verifying-local-domain-9.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-10.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-11.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-12.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-13.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-14.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-15.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-16.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-17.jpg)  
+![Verifying Local Domain](../../images/verifying-local-domain-18.jpg)    
 
 
 
