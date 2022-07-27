@@ -49,11 +49,11 @@ After we have done everything about setup the environment. Now, we will start so
 ![Verifying Local Domain](../../images/verifying-local-domain-25.jpg)  
 => This is expected Error and bellow something need to be check to make sure that we can connect/verify both local-domain and AWS Directory Service. 
    - Checking again ALL Security Group. Make sure that EACH Security Group have both Inbound and Outbond with => All Traffic | 0.0.0.0/0
-   - Each Security Group MUST have added IP range is added for both Inbound and Outbound of the other VPC
+   - Each Security Group MUST have added IP range for both Inbound and Outbound of the other VPC
    - Each Security Group MUST have added ALL the others SGs to both Inbound and Outbound
    - Checking your Instance Type. Your recommended instance type should be at least t3.small The reason why because of each instance family will have a limit speed of Network Performance, this is also mentioned by AWS when you choose an instance. Hence, The better instance type (ex: t3.xlarge | Up to 5G Network Performance), the easier you do the local-domain verification. The Verification process can be simply understood as: 2 domain will start to communicate each other. Hence, if the local-instance with low network performance, can lead to failed-verification.  
 
-10. Verification Success
+1.  Verification Success
 ![Verifying Local Domain](../../images/verifying-local-domain-26.jpg)  
 ![Verifying Local Domain](../../images/verifying-local-domain-27.jpg)
 
