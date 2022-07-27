@@ -57,6 +57,7 @@ After we have done everything about setup the environment. Now, we will start so
 ![Verifying Local Domain](../../images/verifying-local-domain-26.jpg)  
 ![Verifying Local Domain](../../images/verifying-local-domain-27.jpg)  
   
-==> Just ignore the domain name, due to i was busy and do the guide again on another day, so that the seting (ip range, domain, etc.) might a bit difference. However, there is nothing crucial, the process is far more important. If you understood the concept and process about how does it work. Then, whatever IP range and domain name still works perfectly
+==> Just ignore the domain name, due to i was busy and do the guide again on another day, so that the setting (ip range, domain, etc.) might a bit difference. However, there is nothing crucial, the process is far more important. If you understood the concept and process about how does it work. Then, whatever IP range and domain name still works perfectly
+
 
 
