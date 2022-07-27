@@ -6,7 +6,8 @@ Both of **AWS Site** and **Local Site** are located on AWS in the same region.
 **II. AWS Site**  
 - 1 VPC  
 - 2 Public Subnet  
-- 2 Private Subnet  
+- 2 Private Subnet 
+- Recommended Instance size: t3.xlarge => For better network performance (Up to 5 Gigabit Network Performance) 
 - 1 EC2: Bastion  
 - 1 EC2: Active Directory Manager  
 - 1 NAT Gateway  
@@ -19,7 +20,8 @@ Both of **AWS Site** and **Local Site** are located on AWS in the same region.
 **III. Local Site**  
 - 1 VPC  
 - 2 Public Subnet  
-- 2 Private Subnet  
+- 2 Private Subnet 
+-  Recommended Instance size: t3.xlarge => For better network performance (Up to 5 Gigabit Network Performance)  
 - 1 EC2: Bastion  
 - 1 EC2: Built our own Active Directory  
 - 1 NAT Gateway  
