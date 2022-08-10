@@ -45,7 +45,10 @@
 ![Deploy Amazon RDS](../images/deploy-rds-10.jpg)
 ![Deploy Amazon RDS](../images/deploy-rds-11.jpg)  
 
-10. It takes about 30 to 40 minutes for the database to be created. For multi-az deployment, it should take a bit longer. 
+10. It takes about 30 to 40 minutes for the database to be created. For multi-az deployment, it should take a bit longer.  
+
+11. After around about 40 minutes, our Amazon RDS instance has been successfully created. To pay attention to those information which is bordered. Especially the End-point. We will need it later
+![Deploy Amazon RDS](../images/deploy-rds-12.jpg)  
 
 
    
