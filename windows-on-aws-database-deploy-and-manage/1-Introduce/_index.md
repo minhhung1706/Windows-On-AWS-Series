@@ -14,7 +14,7 @@ There are some benefit that Amazon RDS service can bring to the business over th
 - Join to a Domain: We can managed the Amazon RDS to join into a domain. However, the limitation of this is about we cannot join the Amazon RDS into the on-premise domain. Instead, we can only join the Amazon RDS to AWS Managed Directory Service
 ---
 ### Architect Diagram
-![Deploy and Manage Amazon RDS](/images/windows-on-aws-database.jpg)
+![Deploy and Manage Amazon RDS](../images/windows-on-aws-database.jpg)
 
 ---
 ### Infrastructure Explanation
