@@ -23,4 +23,16 @@
 5. Leave all of the next options as default. Unless. you want to give those options a try. Then, click NEXT
 ![fsx-deployment](../../images/fsx-deployment-5.jpg)  
 
+6. Final step is about to review our configuration. If nothing need to be changed, scroll-down and click **Create**. Just wait for the FSx to be created
+![fsx-deployment](../../images/fsx-deployment-6.jpg)  
+
+7. After a while, the FSx is available. Click to the FSx name to access 
+![fsx-deployment](../../images/fsx-deployment-7.jpg)  
+
+8. As can be seen, we have so many option which is provided by Amazon FSx for us to easy to manage our FSx
+![fsx-deployment](../../images/fsx-deployment-8.jpg)  
+
+9. Click on the **Attach(beside Action menu)**, it will show us the way how to mount / connect the FSx to Windows Server. After finished reading the guide. juct click **Close**
+![fsx-deployment](../../images/fsx-deployment-9.jpg)  
+
 
