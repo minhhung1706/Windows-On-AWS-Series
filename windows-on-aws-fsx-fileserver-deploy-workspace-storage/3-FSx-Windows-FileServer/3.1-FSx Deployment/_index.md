@@ -32,7 +32,8 @@
 8. As can be seen, we have so many option which is provided by Amazon FSx for us to easy to manage our FSx
 ![fsx-deployment](../../images/fsx-deployment-8.jpg)  
 
-9. Click on the **Attach(beside Action menu)**, it will show us the way how to mount / connect the FSx to Windows Server. After finished reading the guide. juct click **Close**
+9. Click on the **Attach(beside Action menu)**, it will show us the way how to mount / connect the FSx to Windows Server. After finished reading the guide. juct click **Close**  
+
 ![fsx-deployment](../../images/fsx-deployment-9.jpg)  
 
 
