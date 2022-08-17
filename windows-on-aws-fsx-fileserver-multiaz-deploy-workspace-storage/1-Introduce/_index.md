@@ -12,7 +12,7 @@ First of all, we need to understand that what is Amazon FSx. Amazon FSx is a fil
 ---
 ### Architect Diagram  
 
-![FSx Windows File Server](/images/fsx-workspace-storage.jpg)  
+![FSx Windows File Server](../images/fsx-workspace-storage.jpg)  
 
 ---
 ### Infrastructure Explanation
