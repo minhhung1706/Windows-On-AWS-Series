@@ -20,7 +20,7 @@
     Hence, if you create the FSx first, you are not going to be able to access and deploy FSx for your WorkSpaces. Still, some work-around solutions. However, in this lab, we will do the WordSpaces first so that we can understand the work-flow. In real-world scenario, we need to find the solution for ourselves because of there are so many issues as well as so many solutions. But if we understand the root cause issues and the based-solution, we will be able to solve some critical and tricky problems
 ![fsx-deployment](../../images/fsx-deployment-4.jpg)  
 
-5. Leave all of the next options as default. Except you want to give those options a try. Then, click NEXT
+5. Leave all of the next options as default. Unless. you want to give those options a try. Then, click NEXT
 ![fsx-deployment](../../images/fsx-deployment-5.jpg)  
 
 
